@@ -1,0 +1,14 @@
+#container{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+table {
+    border: 2px solid #f89710;
+    text-align: center;
+    margin: auto;
+}
+td {
+    border: 1px solid #e8588f;
+}
