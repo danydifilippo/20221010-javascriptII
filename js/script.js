@@ -8,10 +8,10 @@ function calcola(a) {
     let monthBirth=a.getMonth()
     let year_ = Number(data - yearBirth);
     let age;
-    if(mese<=monthBirth){
+    if(mese>monthBirth){
         age = year_
     } else {
-        age = Number (year_-=1)
+        age = Number (year_--)
     }
     return age
 }
