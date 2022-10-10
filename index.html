@@ -8,28 +8,30 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div id="container">
-      <form>
-        <input type="text" name="nome" placeholder="Nome" id="nome" />
-        <input type="text" name="cognome" placeholder="Cognome" id="cognome" />
-        <input type="date" name="dataNascita" placeholder="Data di nascita" id="dataNascita" />
-        <button onclick="inserisci()" type="reset">Registrati</button>
-      </form>
-    </div>
-    <div>
-      <table>
-        <caption>
-          Iscritti
-        </caption>
-        <thead>
-          <td>NOME</td>
-          <td>COGNOME</td>
-          <td>DATA DI NASCITA</td>
-          <!-- <td>ETA'</td> -->
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
+    <section>
+      <div id="container">
+        <form>
+          <input type="text" name="nome" placeholder="Nome" id="nome" />
+          <input type="text" name="cognome" placeholder="Cognome" id="cognome" />
+          <input type="date" name="dataNascita" placeholder="Data di nascita" id="dataNascita" />
+          <button onclick="inserisci()" type="reset">Registrati</button>
+        </form>
+      </div>
+      <div>
+        <table>
+          <caption>
+            Iscritti
+          </caption>
+          <thead>
+            <td>NOME</td>
+            <td>COGNOME</td>
+            <td>DATA DI NASCITA</td>
+            <!-- <td>ETA'</td> -->
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
     <script src="./js/script.js"></script>
   </body>
 </html>
